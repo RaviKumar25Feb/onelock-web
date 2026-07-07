@@ -1,7 +1,6 @@
 import React from "react";
 import { Apple, PlayCircle } from "lucide-react";
-import heroImg from "../assets/heroImg.png";
-
+import hero from '../assets/hero.png'
 export default function Hero() {
   const navLinks = [
   { label: "Home", href: "#home" },
@@ -113,11 +112,11 @@ export default function Hero() {
         {/* Right: phone mockups */}
         <div className="relative hidden lg:block">
           {/* Right: hero image */}
-          <div className="relative hidden lg:flex lg:left-20 lg:top-15 justify-center items-center">
+          <div className="relative hidden py-4 lg:flex lg:left-5 lg:top-15 justify-center items-center">
             <img
-              src={heroImg}
+              src={hero}
               alt="App preview"
-              className="w-full scale-190 max-w-md object-contain drop-shadow-2xl"
+              className="w-full scale-180 max-w-md object-contain drop-shadow-2xl"
             />
           </div>
         </div>

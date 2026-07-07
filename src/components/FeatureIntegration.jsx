@@ -1,5 +1,5 @@
 import React from "react";
-import featureIntegration from "../assets/featureIntegration.png"
+import primelocker from "../assets/primelocker.png"
 
 export default function FeatureIntegration() {
   return (
@@ -43,7 +43,7 @@ export default function FeatureIntegration() {
         <div className="relative w-full min-h-[420px] flex items-center justify-center">
           
             {/* Replace this whole block with your image, e.g.: */}
-            <img src={featureIntegration} alt="Feature preview" className="w-full max-w-lg object-contain" />
+            <img src={primelocker} alt="Feature preview" className="w-full max-w-lg object-contain" />
          
         </div>
       </div>

@@ -24,10 +24,10 @@ export default function DesignShowcase() {
     <section className="bg-white py-24 overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-16 items-center">
         {/* Left: image placeholder — drop your own image here */}
-        <div className="relative min-h-[420px] flex items-center justify-center">
+        <div className="relative min-h-[420px] lg:top-10 flex items-center justify-center">
           
             {/* Replace this whole block with your image, e.g.: */}
-            <img src={showcaseimg} alt="Design preview" className="w-full max-w-md object-contain" />
+            <img src={showcaseimg} alt="Design preview" className="w-full scale-130  max-w-md object-contain" />
          
         </div>
 

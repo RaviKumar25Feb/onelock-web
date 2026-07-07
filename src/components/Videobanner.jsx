@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Play, X } from "lucide-react";
-
+import videoImg from "../assets/videoImg.jpg";
 export default function VideoBanner() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -9,8 +9,7 @@ export default function VideoBanner() {
       <section
         className="relative bg-cover bg-center h-[500px] flex items-center justify-center"
         style={{
-          backgroundImage:
-            "linear-gradient(rgba(30,30,35,0.55), rgba(30,30,35,0.55)), url('https://picsum.photos/seed/team-meeting/1600/700')",
+          backgroundImage: `linear-gradient(rgba(30,20,25,0.01), rgba(30,30,35,0.15)), url(${videoImg})`,
         }}
       >
         <button
